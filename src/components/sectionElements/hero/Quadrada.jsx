@@ -95,7 +95,15 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                       <p
                         className={`ml-[10px] text-center desktop1:text-start mt-[12px] desktop1:mt-0 ${obsTextColor}`}
                       >
-                        {t("hero.obsHero.text")}
+                        {t("hero.obsHero.text")}{" "}
+                        <a
+                          className="hover:text-primary transition-all duration-300"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={content.texts.links.ctaWhatsapp}
+                        >
+                          61 99967-7182
+                        </a>
                       </p>
                     </div>
                   </div>

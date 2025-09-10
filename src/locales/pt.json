@@ -18,12 +18,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA E CONSULTORIA",
+    "title": "Especialistas em Direito <span class=\"text-primary font-bold\">ao seu lado</span>",
+    "subtitle": "Atuamos com dedicação e estratégia para proteger seus direitos",
+    "ctaButtonText": "Conheça nossos serviços",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Para marcar seu atendimento, entre em contato com "
     }
   },
   "features": {
