@@ -50,19 +50,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
-  email: "contato", // Email desejado pelo cliente
+  name: "Rocha Advocacia e Consultoria",
+  email: "atendimento", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "rochaadvocaciaeconsultoria.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "99602", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2376", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "99967", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7182", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -93,7 +93,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "rocha_advocacia", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
