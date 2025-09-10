@@ -12,14 +12,14 @@ export default function Team() {
   const { t, i18n } = useTranslation();
 
   return (
-    <SectionArea className="bg-SectionDark">
+    <SectionArea className="bg-bgSectionDark">
       <SectionHeader
         className="text-center"
         miniTitle={t("team.minitag")}
         sectionHeaderTitle={t("team.title")}
         sectionHeaderSubtitle={t("team.subtitle")}
-        titleColorSet="text-black"
-        subtitleColorSet="text-black"
+        titleColorSet="text-white"
+        subtitleColorSet="text-white"
       />
 
       <SectionWrapper className="flex justify-center">

@@ -7,11 +7,13 @@ export default function TeamMember(props) {
       <img
         alt={alt}
         src={img}
-        className="w-[215px] h-[215px] desktop1:w-full desktop1:h-[260px]  mb-[24px] bg-colorBlack rounded-md"
+        className="w-[215px] h-[215px] desktop1:w-full desktop1:h-[260px]  mb-[24px] bg-white rounded-md"
       ></img>
-      <h1 className="mb-auto text-title1 text-center font-bold">{name}</h1>
-      <div className="desktop2:h-[48px] desktop2:mb-[20px] flex justify-center">
-        <p className="text-center text-paragraphLight desktop2:mb-auto tablet1:w-[100%]">
+      <h1 className="mb-auto text-white text-title1 text-center font-bold">
+        {name}
+      </h1>
+      <div className="desktop2:h-[48px] desktop2:mb-[20px] mt-4 flex justify-center">
+        <p className="text-center text-white desktop2:mb-auto tablet1:w-[100%]">
           {role}
         </p>
       </div>
