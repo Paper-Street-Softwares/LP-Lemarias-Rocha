@@ -18,7 +18,7 @@ function EmailFooter({
             <Mail />
           </span>
 
-          <p className="text-paragraph2">{content.texts.infos.email}</p>
+          <p className="text-paragraph1 desktop1:text-paragraph2">{content.texts.infos.email}</p>
         </div>
       </MotionDivDownToUp>
 

@@ -102,6 +102,33 @@
       "labelX": "A_Definir"
     }
   },
+  "team": {
+    "minitag": "NOSSO TIME",
+    "title": "Conheça os profissionais que fazem a diferença",
+    "subtitle": "Um time multidisciplinar, experiente e comprometido com a excelência em ensino, pesquisa e gestão pública.",
+    "members": {
+      "member1": {
+        "name": "Dra. Lemárias Rosa da Silva Rocha",
+        "role": "Sócia-fundadora"
+      },
+      "member2": {
+        "name": "Dr. Elias Antônio da Rocha Filho",
+        "role": "Sócio-fundador"
+      },
+      "member3": {
+        "name": "Dra. Ingrid Rocha",
+        "role": "OAB/GO 30407"
+      },
+      "member4": {
+        "name": "Dra. Bruna de Abreu Rocha",
+        "role": "OAB/DF 84713"
+      },
+      "member5": {
+        "name": "Dra. Lilian Gontijo",
+        "role": "OAB/GO 54.740"
+      }
+    }
+  },
   "ctaSecondary": {
     "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
