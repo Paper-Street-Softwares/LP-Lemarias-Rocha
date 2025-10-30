@@ -29,18 +29,18 @@ export default function Team() {
             <div className="flex flex-wrap justify-center gap-4 tablet2:gap-10">
               <div className="">
                 <TeamMember
-                  img={content.texts.team.members.member1.img.img}
-                  alt={content.texts.team.members.member1.img.alt}
-                  name={t("team.members.member1.name")}
-                  role={t("team.members.member1.role")}
-                />
-              </div>
-              <div className="">
-                <TeamMember
                   img={content.texts.team.members.member2.img.img}
                   alt={content.texts.team.members.member2.img.alt}
                   name={t("team.members.member2.name")}
                   role={t("team.members.member2.role")}
+                />
+              </div>
+              <div className="">
+                <TeamMember
+                  img={content.texts.team.members.member1.img.img}
+                  alt={content.texts.team.members.member1.img.alt}
+                  name={t("team.members.member1.name")}
+                  role={t("team.members.member1.role")}
                 />
               </div>
             </div>
