@@ -22,7 +22,7 @@ export default function Features6cards({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
-  const cardNumbers = [1, 2, 3, 4, 5, 6];
+  const cardNumbers = [1, 2, 3, 4, 5, 6, 7];
 
   // Função para renderizar título, usando Trans para o card6
   const renderTitle = (i) => {
@@ -46,7 +46,7 @@ export default function Features6cards({ colorMode }) {
       />
 
       <SectionWrapper>
-        <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
+        <div className="flex flex-col items-start w-full justify-evenly tablet1:flex-row">
           <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             {cardNumbers.slice(0, 3).map((i) => (
               <MotionDivDownToUp key={i}>
@@ -63,14 +63,24 @@ export default function Features6cards({ colorMode }) {
             ))}
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
-            <div
-              className="hidden h-[900px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary/50"
-              style={{
-                backgroundImage: `url(${content.texts.features.imgFeatures})`,
-              }}
-            ></div>
-          </MotionDivDownToUp>
+          <div className="flex flex-col desktop1:w-[32%] gap-12 items-center">
+            <MotionDivDownToUp className="hidden desktop1:flex justify-center w-full">
+              <div
+                className="hidden h-[900px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary/50"
+                style={{
+                  backgroundImage: `url(${content.texts.features.imgFeatures})`,
+                }}
+              ></div>
+            </MotionDivDownToUp>
+            <div className="hidden desktop1:flex">
+              <IconFeatureCard
+                icon={content.texts.features.card7.icon}
+                title={t(`features.card7.title`)}
+                paragraph={t(`features.card7.subtitle`)}
+                colorMode={colorMode}
+              />
+            </div>
+          </div>
 
           <div className="col3 desktop1:w-[28%] flex flex-col items-center">
             {cardNumbers.slice(3, 6).map((i) => (
@@ -93,6 +103,14 @@ export default function Features6cards({ colorMode }) {
                 />
               </MotionDivDownToUp>
             ))}
+            <div className="flex desktop1:hidden">
+              <IconFeatureCard
+                icon={content.texts.features.card7.icon}
+                title={t(`features.card7.title`)}
+                paragraph={t(`features.card7.subtitle`)}
+                colorMode={colorMode}
+              />
+            </div>
           </div>
         </div>
       </SectionWrapper>

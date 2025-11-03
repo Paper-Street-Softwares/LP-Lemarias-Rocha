@@ -31,7 +31,7 @@
     "subtitle": "Atendemos diversas áreas do Direito com soluções completas.",
     "card1": {
       "title": "Direito Previdenciário",
-      "subtitle": "Benefícios do INSS, aposentadorias e revisões.",
+      "subtitle": "Aposentadorias, BPC(LOAS),  benefícios por incapacidade, pensões,  auxílio maternidade, e  planejamento previdenciário.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -44,30 +44,37 @@
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito de Família e Sucessões",
-      "subtitle": "Divórcios, heranças, pensão e partilhas de bens.",
+      "title": "Direito de Família",
+      "subtitle": "Divórcio, Reconhecimento e Dissolução de União Estável, Guarda, Pensão, Adoção e Tutela (interdição).",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Cível",
-      "subtitle": "Soluções de conflitos, contratos e responsabilidade.",
+      "title": "Direito de Sucessões",
+      "subtitle": "Planejamento sucessório com ênfase em Holdings, Inventários, e Partilhas judiciais e extrajudiciais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Direito Imobiliário",
-      "subtitle": "Regularização, compra, venda e locação de imóveis.",
+      "title": "Direito Cível",
+      "subtitle": "Soluções de conflitos, contratos e responsabilidade civil com ênfase em danos morais, e execuções de títulos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
+      "title": "Direito Imobiliário",
+      "subtitle": "Regularização de propriedade, usucapião, reintegração de posse,  despejo, e contratos de compra e venda.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card7": {
       "title": "Direito Tributário",
-      "subtitle": "Defesa e planejamento contra cobranças indevidas.",
+      "subtitle": "Planejamento tributário, recuperação de créditos, redução de carga tributária, consultoria fiscal, e defesa em processos administrativos e judiciais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
