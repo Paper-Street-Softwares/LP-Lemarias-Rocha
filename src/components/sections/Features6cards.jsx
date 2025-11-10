@@ -39,7 +39,12 @@ export default function Features6cards({ colorMode }) {
       <SectionHeader
         className={`text-center ${textClass}`}
         miniTitle={t("features.miniTag")}
-        sectionHeaderTitle={t("features.title")}
+        sectionHeaderTitle={
+          <span
+            className="tracking-[5px]"
+            dangerouslySetInnerHTML={{ __html: t("features.title") }}
+          />
+        }
         sectionHeaderSubtitle={t("features.subtitle")}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
