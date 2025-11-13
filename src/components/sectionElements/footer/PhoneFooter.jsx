@@ -62,7 +62,7 @@ function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
               target="_blank"
               className="hover:underline"
             >
-              {content.texts.infos.phoneSecundario} - Marcação de atendimento
+              {content.texts.infos.phoneSecundario} - Agende seu horário
             </a>
           </div>
         </MotionDivDownToUp>
