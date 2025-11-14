@@ -41,7 +41,7 @@ export default function Features6cards({ colorMode }) {
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={
           <span
-            className="tracking-[5px] text-[#FFBAD9] [text-shadow:_0_2px_4px_rgb(0_0_0_/_60%)]"
+            className="tracking-[5px] text-primary uppercase "
             dangerouslySetInnerHTML={{ __html: t("features.title") }}
           />
         }
@@ -78,12 +78,15 @@ export default function Features6cards({ colorMode }) {
               ></div>
             </MotionDivDownToUp>
             <div className="hidden desktop1:flex">
-              <IconFeatureCard
-                icon={content.texts.features.card7.icon}
-                title={t(`features.card7.title`)}
-                paragraph={t(`features.card7.subtitle`)}
-                colorMode={colorMode}
-              />
+              <MotionDivDownToUp>
+                {" "}
+                <IconFeatureCard
+                  icon={content.texts.features.card7.icon}
+                  title={t(`features.card7.title`)}
+                  paragraph={t(`features.card7.subtitle`)}
+                  colorMode={colorMode}
+                />
+              </MotionDivDownToUp>
             </div>
           </div>
 
@@ -109,12 +112,14 @@ export default function Features6cards({ colorMode }) {
               </MotionDivDownToUp>
             ))}
             <div className="flex desktop1:hidden">
-              <IconFeatureCard
-                icon={content.texts.features.card7.icon}
-                title={t(`features.card7.title`)}
-                paragraph={t(`features.card7.subtitle`)}
-                colorMode={colorMode}
-              />
+              <MotionDivDownToUp>
+                <IconFeatureCard
+                  icon={content.texts.features.card7.icon}
+                  title={t(`features.card7.title`)}
+                  paragraph={t(`features.card7.subtitle`)}
+                  colorMode={colorMode}
+                />
+              </MotionDivDownToUp>
             </div>
           </div>
         </div>
