@@ -41,7 +41,7 @@ export default function Features6cards({ colorMode }) {
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={
           <span
-            className="tracking-[5px] text-primary uppercase "
+            className="tracking-[5px] text-[25px] leading-[-20px] text-primary uppercase "
             dangerouslySetInnerHTML={{ __html: t("features.title") }}
           />
         }
