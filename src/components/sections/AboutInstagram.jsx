@@ -27,7 +27,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
   const textClass = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea id="about" className={`${bgClass}`} paddingbot={false}>
+    <SectionArea id="about" className={`${bgClass}`} paddingTopAndBottom={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between">
         {socialPrint ? (
           <SocialPrint colorMode={colorMode} />
