@@ -24,7 +24,7 @@ export default function Team() {
 
       <SectionWrapper>
         <MotionDivDownToUp>
-          <div className="flex flex-col gap-10 m-auto w-full">
+          <div className="flex flex-col w-full gap-10 m-auto">
             {/* Primeira linha de membros */}
             <div className="flex flex-wrap justify-center gap-4 tablet2:gap-10">
               <div className="">
@@ -46,7 +46,7 @@ export default function Team() {
             </div>
 
             {/* Segunda linha de membros */}
-            <div className="flex flex-wrap justify-center gap-4 tablet2:gap-10 desktop1:flex-nowrap">
+            <div className="flex flex-wrap justify-center gap-4 tablet2:gap-10 desktop1:flex-wrap">
               <div className="">
                 <TeamMember
                   img={content.texts.team.members.member3.img.img}
@@ -69,6 +69,14 @@ export default function Team() {
                   alt={content.texts.team.members.member5.img.alt}
                   name={t("team.members.member5.name")}
                   role={t("team.members.member5.role")}
+                />
+              </div>
+              <div className="">
+                <TeamMember
+                  img={content.texts.team.members.member6.img.img}
+                  alt={content.texts.team.members.member6.img.alt}
+                  name={t("team.members.member6.name")}
+                  role={t("team.members.member6.role")}
                 />
               </div>
             </div>

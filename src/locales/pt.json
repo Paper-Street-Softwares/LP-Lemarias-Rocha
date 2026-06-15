@@ -137,15 +137,19 @@
       },
       "member3": {
         "name": "Dra. Ingrid Rocha",
-        "role": "OAB/GO 30407"
+        "role": "Advogada"
       },
       "member4": {
         "name": "Dra. Bruna de Abreu Rocha",
-        "role": "OAB/DF 84713"
+        "role": "Advogada"
       },
       "member5": {
         "name": "Dra. Lilian Gontijo",
-        "role": "OAB/GO 54.740"
+        "role": "Advogada"
+      },
+      "member6": {
+        "name": "Dra. Jaqueline Pires de Souza Luiz",
+        "role": "Advogada"
       }
     }
   },
