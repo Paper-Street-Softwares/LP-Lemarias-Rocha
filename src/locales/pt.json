@@ -30,51 +30,65 @@
     "title": "Nossas Especialidades Jurídicas",
     "subtitle": "Atendemos diversas áreas do Direito com soluções completas.",
     "card1": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Aposentadorias, BPC(LOAS),  benefícios por incapacidade, pensões,  auxílio maternidade, e  planejamento previdenciário.",
-      "description": "A_Definir",
+      "title": "Direito Agrário",
+      "subtitle": "Nosso escritório é especializado na defesa estratégica e técnica do produtor rural, com foco em prorrogação e alongamento de dívidas. Atuamos na estruturação de parcelamentos especiais e transações tributárias desenhadas para adequar o passivo à real capacidade de geração de caixa da atividade. Oferecemos defesa técnica em execuções fiscais e cíveis, protegendo o patrimônio e a continuidade da operação no campo.",
+      "description": "Atuamos para garantir que a sua dívida não inviabilize o seu negócio, permitindo renegociar prazos e valores conforme o seu ciclo produtivo.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
+      "title": "Direito Criminal",
+      "subtitle": "Nosso escritório atua de forma estratégica e imediata na defesa criminal, com foco em prisões em flagrante, audiências de custódia e medidas urgentes para resguardar direitos desde os primeiros momentos do caso. Oferecemos defesa técnica em operações, inquéritos policiais e processos criminais de alta complexidade, com análise cuidadosa das provas, atuação firme nos tribunais e condução responsável da estratégia de defesa.",
+      "description": "Atuação especializada no Tribunal do Júri, na Execução Penal e nos Tribunais Superiores.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card3": {
+      "title": "Direito Previdenciário",
+      "subtitle": "Aposentadorias, BPC/LOAS, benefícios por incapacidade, pensões, auxílio-maternidade e planejamento previdenciário.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card4": {
       "title": "Direito Trabalhista",
       "subtitle": "Defesa de direitos em relações de trabalho e emprego.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
-    "card3": {
-      "title": "Direito de Família",
-      "subtitle": "Divórcio, Reconhecimento e Dissolução de União Estável, Guarda, Pensão, Adoção e Tutela (interdição).",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card4": {
-      "title": "Direito de Sucessões",
-      "subtitle": "Planejamento sucessório com ênfase em Holdings, Inventários, e Partilhas judiciais e extrajudiciais.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir",
-      "servicesButton": "A_Definir"
-    },
     "card5": {
-      "title": "Direito Cível",
-      "subtitle": "Soluções de conflitos, contratos e responsabilidade civil com ênfase em danos morais, e execuções de títulos.",
+      "title": "Direito de Família",
+      "subtitle": "Divórcio, reconhecimento e dissolução de união estável, guarda, pensão, adoção e tutela/interdição.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "Direito Imobiliário",
-      "subtitle": "Regularização de propriedade, usucapião, reintegração de posse,  despejo, e contratos de compra e venda.",
+      "title": "Direito de Sucessões",
+      "subtitle": "Planejamento sucessório com ênfase em holdings, inventários e partilhas judiciais e extrajudiciais.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir",
+      "servicesButton": "A_Definir"
+    },
+    "card7": {
+      "title": "Direito Cível",
+      "subtitle": "Soluções para conflitos, contratos e responsabilidade civil, com ênfase em danos morais e execuções de títulos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
-    "card7": {
+    "card8": {
+      "title": "Direito Imobiliário",
+      "subtitle": "Regularização de propriedade, usucapião, reintegração de posse, despejo e contratos de compra e venda.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card9": {
       "title": "Direito Tributário",
-      "subtitle": "Planejamento tributário, recuperação de créditos, redução de carga tributária, consultoria fiscal, e defesa em processos administrativos e judiciais.",
+      "subtitle": "Planejamento tributário, recuperação de créditos, redução de carga tributária, consultoria fiscal e defesa em processos administrativos e judiciais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"

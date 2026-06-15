@@ -14,23 +14,26 @@ export default function Features6cards({ colorMode }) {
     light: "bg-bgSectionOpacityLight",
     default: "squares",
   };
+
   const textClasses = {
     dark: "text-white",
     light: "text-black",
     default: "text-black",
   };
+
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
-  const cardNumbers = [1, 2, 3, 4, 5, 6, 7];
+  const featuredCards = [1, 2];
+  const regularCards = [3, 4, 5, 6, 7, 8, 9];
 
-  // Função para renderizar título, usando Trans para o card6
   const renderTitle = (i) => {
     if (i === 6) {
       return (
         <Trans i18nKey={`features.card${i}.title`} components={{ i: <i /> }} />
       );
     }
+
     return t(`features.card${i}.title`);
   };
 
@@ -41,7 +44,7 @@ export default function Features6cards({ colorMode }) {
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={
           <span
-            className="tracking-[5px] text-[25px] leading-[-20px] text-primary uppercase "
+            className="tracking-[5px] text-[25px] leading-[-20px] text-primary uppercase"
             dangerouslySetInnerHTML={{ __html: t("features.title") }}
           />
         }
@@ -51,76 +54,38 @@ export default function Features6cards({ colorMode }) {
       />
 
       <SectionWrapper>
-        <div className="flex flex-col items-start w-full justify-evenly tablet1:flex-row">
-          <div className="col1 desktop1:w-[28%] flex flex-col items-center">
-            {cardNumbers.slice(0, 3).map((i) => (
-              <MotionDivDownToUp key={i}>
-                <IconFeatureCard
-                  icon={content.texts.features[`card${i}`].icon}
-                  title={renderTitle(i)}
-                  paragraph={t(`features.card${i}.subtitle`)}
-                  className={
-                    i === 1 ? "tablet1:mb-[26px] desktop1:mb-0" : undefined
-                  }
-                  colorMode={colorMode}
-                />
-              </MotionDivDownToUp>
-            ))}
-          </div>
-
-          <div className="flex flex-col desktop1:w-[32%] gap-12 items-center">
-            <MotionDivDownToUp className="hidden desktop1:flex justify-center w-full">
-              <div
-                className="hidden h-[900px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary/50"
-                style={{
-                  backgroundImage: `url(${content.texts.features.imgFeatures})`,
-                }}
-              ></div>
-            </MotionDivDownToUp>
-            <div className="hidden desktop1:flex">
-              <MotionDivDownToUp>
-                {" "}
-                <IconFeatureCard
-                  icon={content.texts.features.card7.icon}
-                  title={t(`features.card7.title`)}
-                  paragraph={t(`features.card7.subtitle`)}
-                  colorMode={colorMode}
-                />
-              </MotionDivDownToUp>
-            </div>
-          </div>
-
-          <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-            {cardNumbers.slice(3, 6).map((i) => (
+        <div className="flex flex-col w-full gap-12 ">
+          <div className="flex flex-col items-stretch justify-center w-full gap-8 desktop1:flex-row">
+            {featuredCards.map((i) => (
               <MotionDivDownToUp
                 key={i}
-                className={
-                  i === 4
-                    ? "flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
-                    : undefined
-                }
+                className="flex justify-center w-full desktop1:w-[520px]"
               >
                 <IconFeatureCard
                   icon={content.texts.features[`card${i}`].icon}
                   title={renderTitle(i)}
                   paragraph={t(`features.card${i}.subtitle`)}
-                  className={
-                    i === 4 ? "tablet1:mb-[26px] desktop1:mb-0" : undefined
-                  }
+                  className="w-full max-w-[520px]"
                   colorMode={colorMode}
                 />
               </MotionDivDownToUp>
             ))}
-            <div className="flex desktop1:hidden">
-              <MotionDivDownToUp>
+          </div>
+
+          <div className="flex flex-wrap justify-center w-full gap-8">
+            {regularCards.map((i) => (
+              <MotionDivDownToUp
+                key={i}
+                className="flex justify-center w-full tablet1:w-[290px] desktop1:w-[250px]"
+              >
                 <IconFeatureCard
-                  icon={content.texts.features.card7.icon}
-                  title={t(`features.card7.title`)}
-                  paragraph={t(`features.card7.subtitle`)}
+                  icon={content.texts.features[`card${i}`].icon}
+                  title={renderTitle(i)}
+                  paragraph={t(`features.card${i}.subtitle`)}
                   colorMode={colorMode}
                 />
               </MotionDivDownToUp>
-            </div>
+            ))}
           </div>
         </div>
       </SectionWrapper>
