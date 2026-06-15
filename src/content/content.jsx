@@ -220,10 +220,15 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            class="icon icon-agrario"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M3 18h18" />
+            <path d="M6 18c0-4 3-7 6-7s6 3 6 7" />
+            <path d="M12 11V3" />
+            <path d="M12 7c-3 0-5-2-5-4 3 0 5 2 5 4z" />
+            <path d="M12 8c3 0 5-2 5-4-3 0-5 2-5 4z" />
+            <path d="M8 18v-3" />
+            <path d="M16 18v-3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -253,12 +258,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="icon icon-criminal"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            <path d="M9 12l2 2 4-4" />
+            <path d="M7 17h10" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -322,12 +326,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scroll-text-icon lucide-scroll-text"
+            class="icon icon-trabalhista"
           >
-            <path d="M15 12h-5" />
-            <path d="M15 8h-5" />
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <rect x="3" y="7" width="18" height="13" rx="2" />
+            <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" />
+            <path d="M3 13h18" />
+            <path d="M10 13v2h4v-2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -357,13 +361,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            class="icon icon-familia"
           >
-            <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
-            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M3 11l9-8 9 8" />
+            <path d="M5 10v10h14V10" />
+            <path d="M9 20v-5a3 3 0 0 1 6 0v5" />
+            <path d="M12 10c1.5-2 5-1 5 2 0 3-5 5-5 5s-5-2-5-5c0-3 3.5-4 5-2z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -393,10 +396,16 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-house-icon lucide-house"
+            class="icon icon-sucessoes"
           >
-            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-            <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <path d="M12 3v6" />
+            <circle cx="12" cy="5" r="2" />
+            <path d="M12 9v3" />
+            <path d="M6 21v-4a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v4" />
+            <circle cx="7" cy="19" r="2" />
+            <circle cx="17" cy="19" r="2" />
+            <path d="M9 14l-2 3" />
+            <path d="M15 14l2 3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -426,18 +435,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-calculator-icon lucide-calculator"
+            class="icon icon-civel"
           >
-            <rect width="16" height="20" x="4" y="2" rx="2" />
-            <line x1="8" x2="16" y1="6" y2="6" />
-            <line x1="16" x2="16" y1="14" y2="18" />
-            <path d="M16 10h.01" />
-            <path d="M12 10h.01" />
-            <path d="M8 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M8 14h.01" />
-            <path d="M12 18h.01" />
-            <path d="M8 18h.01" />
+            <path d="M12 3v18" />
+            <path d="M5 21h14" />
+            <path d="M4 7h16" />
+            <path d="M7 7l-4 7h8L7 7z" />
+            <path d="M17 7l-4 7h8l-4-7z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -467,18 +471,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-calculator-icon lucide-calculator"
+            class="icon icon-imobiliario"
           >
-            <rect width="16" height="20" x="4" y="2" rx="2" />
-            <line x1="8" x2="16" y1="6" y2="6" />
-            <line x1="16" x2="16" y1="14" y2="18" />
-            <path d="M16 10h.01" />
-            <path d="M12 10h.01" />
-            <path d="M8 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M8 14h.01" />
-            <path d="M12 18h.01" />
-            <path d="M8 18h.01" />
+            <path d="M3 11l9-8 9 8" />
+            <path d="M5 10v10h14V10" />
+            <path d="M9 20v-6h6v6" />
+            <circle cx="17" cy="15" r="2" />
+            <path d="M19 17l2 2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -508,18 +507,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-calculator-icon lucide-calculator"
+            class="icon icon-tributario"
           >
-            <rect width="16" height="20" x="4" y="2" rx="2" />
-            <line x1="8" x2="16" y1="6" y2="6" />
-            <line x1="16" x2="16" y1="14" y2="18" />
-            <path d="M16 10h.01" />
-            <path d="M12 10h.01" />
-            <path d="M8 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M8 14h.01" />
-            <path d="M12 18h.01" />
-            <path d="M8 18h.01" />
+            <path d="M7 3h10a2 2 0 0 1 2 2v16l-3-2-3 2-3-2-3 2-3-2V5a2 2 0 0 1 2-2z" />
+            <path d="M8 8h8" />
+            <path d="M8 12h4" />
+            <path d="M15 11l-6 6" />
+            <circle cx="9" cy="11" r="1" />
+            <circle cx="15" cy="17" r="1" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
